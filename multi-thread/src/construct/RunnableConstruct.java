@@ -2,7 +2,7 @@ package construct;
 
 import java.lang.Thread.UncaughtExceptionHandler;
 
-public class RunnableEx {
+public class RunnableConstruct {
 
   public static void runnableThread() throws InterruptedException {
     Thread thread = new Thread(new Runnable() {

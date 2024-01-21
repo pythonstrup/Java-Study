@@ -4,8 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/construct/RunnableEx.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ThreadConstruct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/VaultExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/construct/RunnableEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/construct/RunnableEx.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/construct/RunnableEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/construct/RunnableConstruct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +46,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "AndroidSdkUpdater",
     "show.migrate.to.gradle.popup": "false",
     "vue.rearranger.settings.migration": "true"
@@ -66,11 +74,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705843568006</updated>
-      <workItem from="1705843569903" duration="1015000" />
+      <workItem from="1705843569903" duration="2065000" />
     </task>
+    <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
+      <created>1705844654817</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705844654817</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException" />
+    <option name="LAST_COMMIT_MESSAGE" value="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException" />
   </component>
 </project>
