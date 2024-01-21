@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/ThreadConstruct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/construct/ex/VaultExample.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Thread Inheritance">
+      <change afterPath="$PROJECT_DIR$/src/construct/ex/MultiExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/construct/RunnableEx.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/construct/RunnableEx.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/construct/RunnableEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/construct/RunnableConstruct.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1705843568006</updated>
-      <workItem from="1705843569903" duration="2065000" />
+      <workItem from="1705843569903" duration="2623000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -83,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705844654817</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Thread Inheritance">
+      <created>1705845756373</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705845756373</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException" />
-    <option name="LAST_COMMIT_MESSAGE" value="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException" />
+    <MESSAGE value="Thread Inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Inheritance" />
   </component>
 </project>
