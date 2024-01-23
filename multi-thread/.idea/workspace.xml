@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Interrupting &amp; DaemonThread">
-      <change afterPath="$PROJECT_DIR$/src/coordination/Join.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Thread Coordinating By Thread.join()">
+      <change afterPath="$PROJECT_DIR$/src/coordination/ex/ComplexCalculation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
@@ -71,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1705843568006</updated>
       <workItem from="1705843569903" duration="2689000" />
-      <workItem from="1705931038500" duration="2167000" />
+      <workItem from="1705931038500" duration="3598000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -101,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705932261912</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Thread Coordinating By Thread.join()">
+      <created>1705933295410</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705933295410</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +130,7 @@
     <MESSAGE value="Thread Inheritance" />
     <MESSAGE value="Thread 연습문제" />
     <MESSAGE value="Interrupting &amp; DaemonThread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Interrupting &amp; DaemonThread" />
+    <MESSAGE value="Thread Coordinating By Thread.join()" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Coordinating By Thread.join()" />
   </component>
 </project>
