@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Thread Coordinating 연습문제">
-      <change afterPath="$PROJECT_DIR$/resources/many-flowers.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optimize/Rgb.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Image Recoloring - MultiThread">
+      <change afterPath="$PROJECT_DIR$/src/optimize/ImageRecoloringExecutor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optimize/Rgb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimize/ImageRecoloring.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,7 @@
       <workItem from="1705843569903" duration="2689000" />
       <workItem from="1705931038500" duration="3598000" />
       <workItem from="1706010800111" duration="43000" />
-      <workItem from="1706104052450" duration="1517000" />
+      <workItem from="1706104052450" duration="2353000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -126,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706010835673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Image Recoloring - SingleThread">
+      <created>1706105636925</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706105636925</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +158,8 @@
     <MESSAGE value="Interrupting &amp; DaemonThread" />
     <MESSAGE value="Thread Coordinating By Thread.join()" />
     <MESSAGE value="Thread Coordinating 연습문제" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread Coordinating 연습문제" />
+    <MESSAGE value="Image Recoloring - SingleThread" />
+    <MESSAGE value="Image Recoloring - MultiThread" />
+    <option name="LAST_COMMIT_MESSAGE" value="Image Recoloring - MultiThread" />
   </component>
 </project>

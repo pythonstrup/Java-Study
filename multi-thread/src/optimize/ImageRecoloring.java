@@ -1,13 +1,44 @@
 package optimize;
 
 import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Rgb {
+public class ImageRecoloring {
 
   public static final String SOURCE_FILE = "./resources/many-flowers.jpg";
   public static final String DESTINATION_FILE = "./out/many-flowers.jpg";
 
-  public static void recolorSingleThread(BufferedImage originalImage, BufferedImage resultImage) {
+  public static void recolorMultiThreaded(BufferedImage originalImage, BufferedImage resultImage, int numberOfThreads) {
+    List<Thread> threads = new ArrayList<>();
+    int width = originalImage.getWidth();
+    int height = originalImage.getHeight() / numberOfThreads;
+
+    for (int i = 0; i < numberOfThreads; i++) {
+      final int threadMultiplier = i;
+
+      Thread thread = new Thread(() -> {
+        int leftCorner = 0;
+        int topCorner = height * threadMultiplier;
+
+        recolorImage(originalImage, resultImage, leftCorner, topCorner, width, height);
+      });
+      threads.add(thread);
+    }
+
+    for (Thread thread: threads) {
+      thread.start();
+    }
+
+    for (Thread thread: threads) {
+      try {
+        thread.join();
+      } catch (InterruptedException e) {
+      }
+    }
+  }
+
+  public static void recolorSingleThreaded(BufferedImage originalImage, BufferedImage resultImage) {
     recolorImage(originalImage, resultImage, 0, 0, originalImage.getWidth(), originalImage.getHeight());
   }
 
