@@ -1,18 +1,21 @@
-import coordination.DaemonThread;
-import coordination.InterruptingThread2;
-import coordination.Join;
-import coordination.ex.ComplexCalculation;
-import java.math.BigInteger;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
+import javax.imageio.ImageIO;
+import optimize.Rgb;
 
 public class Main {
 
-  public static void main(String[] args) throws InterruptedException {
-    BigInteger result = ComplexCalculation.calculateResult(
-        new BigInteger("2"),
-        new BigInteger("2"),
-        new BigInteger("33"),
-        new BigInteger("2"));
-    System.out.println(result);
+  public static void main(String[] args) throws InterruptedException, IOException {
+    BufferedImage originalImage = ImageIO.read(new File(Rgb.SOURCE_FILE));
+    BufferedImage resultImage =
+        new BufferedImage(originalImage.getWidth(), originalImage.getHeight(), BufferedImage.TYPE_INT_RGB);
+
+    Rgb.recolorSingleThread(originalImage, resultImage);
+
+    File outputFile = new File(Rgb.DESTINATION_FILE);
+    ImageIO.write(resultImage, "jpg", outputFile);
+
   }
 
 }

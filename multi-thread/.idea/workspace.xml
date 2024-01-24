@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Thread Coordinating By Thread.join()">
-      <change afterPath="$PROJECT_DIR$/src/coordination/ex/ComplexCalculation.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Thread Coordinating 연습문제">
+      <change afterPath="$PROJECT_DIR$/resources/many-flowers.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/optimize/Rgb.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,22 +32,31 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "last_opened_file_path": "/Users/bagjonghyeog/Desktop/pro/java/multi-thread/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "AndroidSdkUpdater",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -72,6 +81,8 @@
       <updated>1705843568006</updated>
       <workItem from="1705843569903" duration="2689000" />
       <workItem from="1705931038500" duration="3598000" />
+      <workItem from="1706010800111" duration="43000" />
+      <workItem from="1706104052450" duration="1517000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -108,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705933295410</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Thread Coordinating 연습문제">
+      <created>1706010835673</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706010835673</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +149,7 @@
     <MESSAGE value="Thread 연습문제" />
     <MESSAGE value="Interrupting &amp; DaemonThread" />
     <MESSAGE value="Thread Coordinating By Thread.join()" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thread Coordinating By Thread.join()" />
+    <MESSAGE value="Thread Coordinating 연습문제" />
+    <option name="LAST_COMMIT_MESSAGE" value="Thread Coordinating 연습문제" />
   </component>
 </project>
