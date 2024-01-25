@@ -1,5 +1,5 @@
 import java.io.IOException;
-import optimize.ImageRecoloringExecutor;
+import optimizelatency.ImageRecoloringExecutor;
 
 public class Main {
 
