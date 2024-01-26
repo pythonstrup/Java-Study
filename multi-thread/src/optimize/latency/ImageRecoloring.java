@@ -1,4 +1,4 @@
-package optimizelatency;
+package optimize.latency;
 
 import java.awt.image.BufferedImage;
 import java.util.ArrayList;
