@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Throughput - Jemeter">
-      <change afterPath="$PROJECT_DIR$/src/race/condition/RaceCondition.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="synchronized keyword">
+      <change afterPath="$PROJECT_DIR$/src/race/condition/SynchronizedBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/race/condition/SynchronizedMethod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optimizelatency/ImageRecoloring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimize/latency/ImageRecoloring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optimizelatency/ImageRecoloringExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimize/latency/ImageRecoloringExecutor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optimizethroughput/ThroughputHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimize/throughput/ThroughputHttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +58,9 @@
       <recent name="$PROJECT_DIR$/resources/throughput" />
       <recent name="$PROJECT_DIR$/resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="race.condition" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application">
@@ -105,7 +107,7 @@
       <workItem from="1706010800111" duration="43000" />
       <workItem from="1706104052450" duration="2976000" />
       <workItem from="1706186735654" duration="3460000" />
-      <workItem from="1706267982489" duration="1754000" />
+      <workItem from="1706267982489" duration="2736000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -177,7 +179,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706268635524</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Race Condition">
+      <created>1706278049895</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1706278049895</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +214,8 @@
     <MESSAGE value="Image Recoloring - MultiThread" />
     <MESSAGE value="Word Count Http Server Setting" />
     <MESSAGE value="Throughput - Jemeter" />
-    <option name="LAST_COMMIT_MESSAGE" value="Throughput - Jemeter" />
+    <MESSAGE value="Race Condition" />
+    <MESSAGE value="synchronized keyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="synchronized keyword" />
   </component>
 </project>
