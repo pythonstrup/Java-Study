@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Image Recoloring - MultiThread">
-      <change afterPath="$PROJECT_DIR$/resources/throughput/war_and_peace.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/optimizethroughput/ThroughputHttpServer.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Word Count Http Server Setting">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optimize/ImageRecoloring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimizelatency/ImageRecoloring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/optimize/ImageRecoloringExecutor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimizelatency/ImageRecoloringExecutor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/optimizethroughput/ThroughputHttpServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimizethroughput/ThroughputHttpServer.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,26 +30,26 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "last_opened_file_path": "/Users/bagjonghyeog/Desktop/pro/java/multi-thread/resources/throughput",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "AndroidSdkUpdater",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/bagjonghyeog/Desktop/pro/java/multi-thread/resources/throughput&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;AndroidSdkUpdater&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/resources/throughput" />
@@ -105,7 +100,8 @@
       <workItem from="1705931038500" duration="3598000" />
       <workItem from="1706010800111" duration="43000" />
       <workItem from="1706104052450" duration="2976000" />
-      <workItem from="1706186735654" duration="1063000" />
+      <workItem from="1706186735654" duration="3460000" />
+      <workItem from="1706267982489" duration="616000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -163,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706106432382</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Word Count Http Server Setting">
+      <created>1706187951224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1706187951224</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,6 +192,7 @@
     <MESSAGE value="Thread Coordinating 연습문제" />
     <MESSAGE value="Image Recoloring - SingleThread" />
     <MESSAGE value="Image Recoloring - MultiThread" />
-    <option name="LAST_COMMIT_MESSAGE" value="Image Recoloring - MultiThread" />
+    <MESSAGE value="Word Count Http Server Setting" />
+    <option name="LAST_COMMIT_MESSAGE" value="Word Count Http Server Setting" />
   </component>
 </project>

@@ -11,10 +11,13 @@ import java.nio.file.Paths;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+// open jmeter => open /opt/homebrew/bin/Jmeter
 public class ThroughputHttpServer {
 
   private static final String INPUT_FILE = "resources/throughput/war_and_peace.txt";
-  private static final int NUMBER_OF_THREADS = 1;
+//  private static final int NUMBER_OF_THREADS = 1; // throughput = 72.5/sec
+//  private static final int NUMBER_OF_THREADS = 2; // throughput = 79.5/sec
+  private static final int NUMBER_OF_THREADS = 4; // throughput = 115.5 sec
 
   public static void main(String[] args) throws IOException {
     String text = new String(Files.readAllBytes(Paths.get(INPUT_FILE)));
