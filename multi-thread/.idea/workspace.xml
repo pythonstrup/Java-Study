@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="synchronized keyword">
-      <change afterPath="$PROJECT_DIR$/src/race/condition/atomic/operations/AtomicOperations.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="atomic operations, volatile">
+      <change afterPath="$PROJECT_DIR$/src/race/condition/atomic/operations/MinMaxMetrics.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,8 @@
       <workItem from="1706104052450" duration="2976000" />
       <workItem from="1706186735654" duration="3460000" />
       <workItem from="1706267982489" duration="3572000" />
-      <workItem from="1706362855251" duration="839000" />
+      <workItem from="1706362855251" duration="1489000" />
+      <workItem from="1706440923504" duration="318000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706278679105</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="atomic operations, volatile">
+      <created>1706363737511</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1706363737511</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,7 +211,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -222,6 +242,7 @@
     <MESSAGE value="Throughput - Jemeter" />
     <MESSAGE value="Race Condition" />
     <MESSAGE value="synchronized keyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="synchronized keyword" />
+    <MESSAGE value="atomic operations, volatile" />
+    <option name="LAST_COMMIT_MESSAGE" value="atomic operations, volatile" />
   </component>
 </project>
