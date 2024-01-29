@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="MinMaxMetrics Example">
-      <change afterPath="$PROJECT_DIR$/src/race/condition/non/atomic/NonAtomic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/race/condition/non/atomic/NonAtomicVolatile.java" afterDir="false" />
+    <list default="true" id="a1892efa-b64a-43db-81f8-f767d05e6305" name="Changes" comment="Data Races">
+      <change afterPath="$PROJECT_DIR$/src/deadlock/Deadlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/multi-thread/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/multi-thread/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -110,7 +108,8 @@
       <workItem from="1706186735654" duration="3460000" />
       <workItem from="1706267982489" duration="3572000" />
       <workItem from="1706362855251" duration="1489000" />
-      <workItem from="1706440923504" duration="1004000" />
+      <workItem from="1706440923504" duration="1663000" />
+      <workItem from="1706534294861" duration="669000" />
     </task>
     <task id="LOCAL-00001" summary="Runnable Thread&#10;&#10;- Thread&#10;- UncaughtException">
       <created>1705844654817</created>
@@ -210,7 +209,14 @@
       <option name="project" value="LOCAL" />
       <updated>1706441281111</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Data Races">
+      <created>1706441987462</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1706441987462</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,6 +260,7 @@
     <MESSAGE value="synchronized keyword" />
     <MESSAGE value="atomic operations, volatile" />
     <MESSAGE value="MinMaxMetrics Example" />
-    <option name="LAST_COMMIT_MESSAGE" value="MinMaxMetrics Example" />
+    <MESSAGE value="Data Races" />
+    <option name="LAST_COMMIT_MESSAGE" value="Data Races" />
   </component>
 </project>
