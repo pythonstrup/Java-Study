@@ -16,8 +16,8 @@ ext {
     junitVersion = '5.9.1'
 }
 
-sourceCompatibility = '8'
-targetCompatibility = '8'
+sourceCompatibility = '9'
+targetCompatibility = '9'
 
 tasks.withType(JavaCompile) {
     options.encoding = 'UTF-8'
@@ -54,3 +54,5 @@ jlink {
 jlinkZip {
     group = 'distribution'
 }
+
+compileJava
