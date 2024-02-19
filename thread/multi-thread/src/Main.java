@@ -1,10 +1,11 @@
 import java.io.IOException;
-import reentrantlock.ReadWriteLock;
+import semaphore.MatricesProducerConsumer;
 
 public class Main {
 
   public static void main(String[] args) throws InterruptedException, IOException {
-    ReadWriteLock.execute();
+//    MatricesGenerator.execute();
+    MatricesProducerConsumer.execute();
   }
 
 }
