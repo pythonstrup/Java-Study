@@ -1,12 +1,11 @@
-import atomic.AtomicIntegerEx;
-import atomic.AtomicReferenceEx;
+import atomic.AtomicReferenceStackObject;
+import atomic.AtomicReferenceStringValue;
 import java.io.IOException;
-import semaphore.MatricesProducerConsumer;
 
 public class Main {
 
   public static void main(String[] args) throws InterruptedException, IOException {
-    AtomicReferenceEx.execute();
+    AtomicReferenceStackObject.executeLockFree();
   }
 
 }

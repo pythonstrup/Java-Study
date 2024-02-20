@@ -2,7 +2,7 @@ package atomic;
 
 import java.util.concurrent.atomic.AtomicReference;
 
-public class AtomicReferenceEx {
+public class AtomicReferenceStringValue {
 
   public static void execute() {
     String oldName = "old name";
