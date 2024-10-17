@@ -1,9 +1,9 @@
 package com.pythonstrup;
 
-import com.pythonstrup.observer.weather.CurrentConditionDisplay;
-import com.pythonstrup.observer.weather.ForecastDisplay;
-import com.pythonstrup.observer.weather.StatisticsDisplay;
-import com.pythonstrup.observer.weather.WeatherData;
+import com.pythonstrup.observer.weatherpull.CurrentConditionDisplay;
+import com.pythonstrup.observer.weatherpull.ForecastDisplay;
+import com.pythonstrup.observer.weatherpull.StatisticsDisplay;
+import com.pythonstrup.observer.weatherpull.WeatherData;
 
 public class Main {
 
