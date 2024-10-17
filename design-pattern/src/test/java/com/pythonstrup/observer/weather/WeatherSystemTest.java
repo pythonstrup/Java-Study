@@ -1,20 +1,16 @@
-package com.pythonstrup;
+package com.pythonstrup.observer.weather;
 
-import com.pythonstrup.decorator.coffee.Beverage;
-import com.pythonstrup.decorator.coffee.DarkRoast;
-import com.pythonstrup.decorator.coffee.Espresso;
-import com.pythonstrup.decorator.coffee.Milk;
-import com.pythonstrup.decorator.coffee.Mocha;
-import com.pythonstrup.decorator.coffee.Soy;
-import com.pythonstrup.decorator.coffee.Whip;
 import com.pythonstrup.observer.weatherpull.CurrentConditionDisplay;
 import com.pythonstrup.observer.weatherpull.ForecastDisplay;
 import com.pythonstrup.observer.weatherpull.StatisticsDisplay;
 import com.pythonstrup.observer.weatherpull.WeatherData;
+import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Test;
 
-public class Main {
+class WeatherSystemTest {
 
-  public static void main(String[] args) {
+  @Test
+  void test() {
     WeatherData weatherData = new WeatherData(5.0, 20.0, 30.0);
     CurrentConditionDisplay currentConditionDisplay = new CurrentConditionDisplay(weatherData);
     StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
