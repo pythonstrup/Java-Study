@@ -1,4 +1,4 @@
-package com.pythonstrup.factory.pizzasimplefactory;
+package com.pythonstrup.factory.pizza.factorypattern;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.pythonstrup.factory.pizzasimplefactory;
+package com.pythonstrup.factory.pizza.simplefactory;
 
 public class PizzaStore {
 
