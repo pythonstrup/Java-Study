@@ -1,11 +1,15 @@
-package com.pythonstrup.proxy.gumball;
+package com.pythonstrup.proxy.gumballrmi;
 
+import java.io.Serial;
 import java.util.Random;
 
 public class HasQuarterState implements State {
 
+  @Serial
+  private static final long serialVersionUID = 2L;
+
   Random randomWinner = new Random(System.currentTimeMillis());
-  GumballMachine gumballMachine;
+  transient GumballMachine gumballMachine;
 
   public HasQuarterState(final GumballMachine gumballMachine) {
     this.gumballMachine = gumballMachine;

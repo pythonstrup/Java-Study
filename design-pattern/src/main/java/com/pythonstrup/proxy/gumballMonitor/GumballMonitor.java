@@ -1,7 +1,5 @@
 package com.pythonstrup.proxy.gumballMonitor;
 
-import com.pythonstrup.proxy.gumball.GumballMachine;
-
 public class GumballMonitor {
 
   GumballMachine gumballMachine;

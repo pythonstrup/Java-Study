@@ -1,6 +1,13 @@
-package com.pythonstrup.proxy.gumball;
+package com.pythonstrup.proxy.gumballrmi;
 
-public class GumballMachine {
+import java.io.Serial;
+import java.rmi.RemoteException;
+import java.rmi.server.UnicastRemoteObject;
+
+public class GumballMachine extends UnicastRemoteObject implements GumballMachineRemote {
+
+  @Serial
+  private static final long serialVersionUID = 2L;
 
   private State soldOutState;
   private State noQuarterState;
@@ -12,7 +19,7 @@ public class GumballMachine {
   int count = 0;
   String location;
 
-  public GumballMachine(final int numberGumballs, final String location) {
+  public GumballMachine(final int numberGumballs, final String location) throws RemoteException {
     soldOutState = new SoldOutState(this);
     noQuarterState = new NoQuarterState(this);
     hasQuarterState = new HasQuarterState(this);

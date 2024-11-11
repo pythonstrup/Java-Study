@@ -1,4 +1,4 @@
-package com.pythonstrup.proxy.gumball;
+package com.pythonstrup.proxy.gumballMonitor;
 
 public class NoQuarterState implements State {
 

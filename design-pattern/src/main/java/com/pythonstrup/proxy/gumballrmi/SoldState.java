@@ -1,8 +1,12 @@
-package com.pythonstrup.proxy.gumball;
+package com.pythonstrup.proxy.gumballrmi;
+
+import java.io.Serial;
 
 public class SoldState implements State {
 
-  GumballMachine gumballMachine;
+  @Serial
+  private static final long serialVersionUID = 2L;
+  transient GumballMachine gumballMachine;
 
   public SoldState(final GumballMachine gumballMachine) {
     this.gumballMachine = gumballMachine;

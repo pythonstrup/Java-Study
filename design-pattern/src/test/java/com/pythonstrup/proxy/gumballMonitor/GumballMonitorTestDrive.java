@@ -1,6 +1,5 @@
 package com.pythonstrup.proxy.gumballMonitor;
 
-import com.pythonstrup.proxy.gumball.GumballMachine;
 import org.junit.jupiter.api.Test;
 
 class GumballMonitorTestDrive {
